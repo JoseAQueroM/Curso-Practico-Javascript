@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-Container{
+    background-color: rgb(58, 54, 54);
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-Title{
+    background-color: rgb(58, 54, 54);
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+
+.form-Container{
+    width: 30%;
+    height: 350px;
+    background-color: rgb(18, 20, 20);
+    border-radius: 15px;
+    border: 1px rgb(229, 255, 0) solid;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.p-Form{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.label-Form{
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.input-Form{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px rgb(229, 255, 0) solid; 
+    
+}
+
+.button-Form{
+    background-color: rgb(58, 54, 54);
+    width: 120px;
+    height: 30px;
+    border: 1px rgb(229, 255, 0) solid;
+    color: whitesmoke;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: rgb(18, 20, 20);
+    border-radius: 15px;
+}
+
+.p-Result{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}

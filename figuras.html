@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./figuras.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+
+    <header class="Header-Body">        
+        <h1 class="header-Title">Figuras Geometricas</h1>
+    </header>
+
+    <main>
+        <div class="div-Main-Container">
+        <section class="section-Main-Container-1"> <!--Contenedor 1-->
+            <h2 class="section-Main-Title">Calcula el area y perimetro de un cuadrado</h2>
+            <form>
+                <label class="label-Title" for="inputCuadrado">
+                    <h3>Escribe cuanto mide cada lado de tu cuadrado:</h3>
+                </label>
+                <input class="input-Section" id="inputCuadrado" type="number"/>
+<br>
+                <button class="section-Button" type="button" onclick="calcularPerimetroCuadrado()" >Calcular Perimetro</button>
+                <button class="section-Button" type="button" onclick="calcularAreaCuadrado()" >Calcular el area</button>
+            </form>
+        </section>
+
+        <section class="section-Main-Container-1">
+            <h2 class="section-Main-Title">Calcula el perimetro y area de un triangulo</h2>
+            <form>
+                <label class="label-Title" for="input1">
+                    <h3>Valor 1</h3>
+                    <input id="input1" class="input-Section" type="number">
+                </label>
+                
+                <label class="label-Title" for="input2">
+                    <h3>Valor 2</h3>
+                    <input id="input2" class="input-Section" type="number">
+                </label>
+
+                <label class="label-Title" for="input3">
+                    <h3>Base</h3>
+                    <input id="input3" class="input-Section" type="number">
+                </label>
+
+<br>
+                <button class="section-Button" type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+                <button class="section-Button" type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+            </form>
+        </section>
+
+
+            <section class="section-Main-Container-1">
+            <h2 class="section-Main-Title">Calcula el Diametro, Perimetro y Area del Circulo</h2>
+                <form>
+                    <label class="label-Title" for="input">
+                        <h3>Valor 1</h3>
+                        <input id="input" type="number" class="input-Section" >
+                    </label>
+<br>
+                    <button class="section-Button" type="button" onclick="calcularDiametroCirculo()">Calcular Diametro</button>
+                    <button class="section-Button" type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+                    <button class="section-Button" type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
+                </form>
+            </section>   
+
+            <section class="section-Main-Container-1">
+                <h2 class="section-Main-Title">Calcula el area y perimetro de un triangulo isosceles</h2>
+                <form>
+
+                    <label class="label-Title" for="ladoA">
+                        <h3>Lado a</h3>
+                        <input id="ladoA" class="input-Section" type="number">
+                    </label>
+<br>
+                    <label class="label-Title" for="ladoB">
+                        <h3>Lado b</h3>
+                        <input id="ladoB" class="input-Section" type="number">
+                    </label>
+<br>
+                   <label class="label-Title" for="baseC">
+                        <h3>Base</h3>
+                        <input id="baseC" class="input-Section" type="number">
+                    </label>
+
+                    <button class="section-Button" type="button" onclick="calcularAlturaIsosceles()">Calcular Altura</button>
+            
+                </form>
+
+            </section>
+        </div>
+
+        
+    </main>
+
+</body>
+</html>
