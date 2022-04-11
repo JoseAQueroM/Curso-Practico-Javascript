@@ -25,7 +25,7 @@ function calcularMediaAritmetica(lista){
     //     sumaLista = sumaLista + lista[i];
     // 
 
-    const sumaLista = lista.ruduce(
+    const sumaLista = lista.reduce(
         function(valorAcumulado = 0, nuevoElemento){ 
             return valorAcumulado + nuevoElemento
         }
